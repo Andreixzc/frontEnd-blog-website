@@ -1,0 +1,47 @@
+.corpo
+{
+    background-color: aliceblue;
+}
+.card {
+    background-color: blanchedalmond;
+    min-height: 200px
+}
+.banner1
+{
+    /* background-color: aqua; */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.banner2
+{
+    /* background-color: aquamarine; */
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+}
+.text-center
+{
+    font-size: x-large;
+}
+.titulo
+{
+    font-size: 75px;
+    font-style: italic;
+}
+
+.card1
+{
+    background-color: blanchedalmond;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    min-height: 200px
+}
+
+.fab
+{
+    color: rgb(1, 14, 1);
+    font-size: 40px;
+}
+
