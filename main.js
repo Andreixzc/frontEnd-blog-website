@@ -8,8 +8,7 @@ function carrega1() {
 
         let bio = `
         <div class="container-fluid">
-        <div class="row">
-        <div class="col-12 banner1">
+        <div class="row justify-content-center">
             <div class="card" style="width: 18rem;">
                 <img src="${data.avatar_url}" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -19,7 +18,7 @@ function carrega1() {
                 </div>
             </div>
         </div>
-    </div>
+    <div class="row justify-content-center">
     <div class="col-9 banner1 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius
         unde maiores molestias reprehenderit natus, soluta facere iure autem quam, harum quaerat qui blanditiis. Illo ad
         delectus culpa, commodi incidunt dolore nihil recusandae! Quis libero debitis nostrum dolores ratione
@@ -28,6 +27,7 @@ function carrega1() {
         soluta. Aut molestiae, exercitationem perspiciatis quam quisquam possimus. Et vel odit fugit, incidunt
         dolorum sint exercitationem! Vel perspiciatis, facere ipsa, expedita obcaecati natus quos, est fugit quo
         aliquam enim tempore reprehenderit alias.
+    </div>
     </div>`
         document.getElementById('perfil').innerHTML = bio;
     }
