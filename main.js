@@ -1,4 +1,5 @@
-function carrega1() {
+function carrega1() { 
+
     let xhr = new XMLHttpRequest();
     xhr.onload = function () {
 
@@ -19,14 +20,7 @@ function carrega1() {
             </div>
         </div>
     <div class="row justify-content-center">
-    <div class="col-9 banner1 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius
-        unde maiores molestias reprehenderit natus, soluta facere iure autem quam, harum quaerat qui blanditiis. Illo ad
-        delectus culpa, commodi incidunt dolore nihil recusandae! Quis libero debitis nostrum dolores ratione
-        perferendis magnam incidunt voluptates. Odio, odit. Praesentium, quisquam odit! Porro nihil incidunt ipsa
-        atque explicabo minus enim asunt molestias! Animi at earum eos maxime, aliquam nesciunt omnis quam blanditiis
-        soluta. Aut molestiae, exercitationem perspiciatis quam quisquam possimus. Et vel odit fugit, incidunt
-        dolorum sint exercitationem! Vel perspiciatis, facere ipsa, expedita obcaecati natus quos, est fugit quo
-        aliquam enim tempore reprehenderit alias.
+    <div class="col-9 banner1 text-center">Site contendo meus repositorios no github
     </div>
     </div>`
         document.getElementById('perfil').innerHTML = bio;
@@ -46,7 +40,7 @@ function carrega() {
     <p class="titulo">Repositórios:</p>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4">
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
                 <div class="card1" style="width: 18rem;">
                     <div class="card-body">
                     <i class="fab fa-github"></i>
@@ -57,7 +51,7 @@ function carrega() {
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
                 <div class="card1" style="width: 18rem;">
                     <div class="card-body">
                         <i class="fab fa-github"></i>
@@ -68,7 +62,7 @@ function carrega() {
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
                 <div class="card1" style="width: 18rem;">
                     <div class="card-body">
                         <i class="fab fa-github"></i>
@@ -88,7 +82,6 @@ function carrega() {
         alert(`Erro na requisiçao \nCódigo: ${this.status} - ${this.statustext}`);
     }
 
-    // xhr.open('GET','https://api.github.com/users/xandecoelho5');
     xhr.open('GET', 'https://api.github.com/users/Andreixzc/repos');
     xhr.send()
 
@@ -115,8 +108,8 @@ form.addEventListener('submit', function (e) {
         <p class="card-text">Bio:${data.bio}</p>
     </div>
     <div class="card-body">
-        <a href="${data.html_url}" class="card-link">Link Perfil</a>
-        <a href="${data.followers_url}" class="card-link">Seguidores do</a>
+        <a href="${data.html_url}" class="card-link">Acesse o Perfil</a>
+        <a href="" class="card-link">${data.location}</a>
     </div>
 </div>
             `
