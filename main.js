@@ -105,7 +105,7 @@ form.addEventListener('submit', function (e) {
     <img class="card-img-top" src="${data.avatar_url}" alt="Card image cap">
     <div class="card-body">
         <h5 class="card-title">${data.name}</h5>
-        <p class="card-text">Bio:${data.bio}</p>
+        <p class="card-text">Biografia:${data.bio}</p>
     </div>
     <div class="card-body">
         <a href="${data.html_url}" class="card-link">Acesse o Perfil</a>
